@@ -8,7 +8,7 @@ const Login=()=>{
     const handleSubmit = async(e)=>{
         e.preventDefault()   
         try {
-                const response = await fetch('http://localhost:9000/books', {
+                const response = await fetch('https://insat.vercel.app/books', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
